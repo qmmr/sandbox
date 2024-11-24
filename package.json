@@ -1,0 +1,21 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Sandbox for all kind of things",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.14.2+sha256.06e65a4965baff6d6097f9c8f75c35f6d420974dbc03d775009056a69edfd271",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "prettier": "^3.3.3",
+    "vitest": "^2.1.5"
+  }
+}
