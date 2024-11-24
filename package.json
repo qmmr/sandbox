@@ -1,7 +1,6 @@
 {
   "name": "sandbox",
   "version": "1.0.0",
-  "type": "module",
   "description": "Sandbox for all kind of things",
   "main": "index.js",
   "scripts": {

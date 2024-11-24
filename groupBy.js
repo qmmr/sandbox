@@ -20,17 +20,17 @@ function groupBy(data) {
 }
 
 function groupByKeys(data) {
-    const groupedByOrganization = Object.groupBy(data, item => item.organizationId);
+  const groupedByOrganization = Object.groupBy(data, (item) => item.organizationId)
 
-    // Group each organization by projectId
-    for (const organizationId in groupedByOrganization) {
-        groupedByOrganization[organizationId] = Object.groupBy(
-            groupedByOrganization[organizationId],
-            item => item.projectId
-        );
-    }
+  // Group each organization by projectId
+  for (const organizationId in groupedByOrganization) {
+    groupedByOrganization[organizationId] = Object.groupBy(
+      groupedByOrganization[organizationId],
+      (item) => item.projectId
+    )
+  }
 
-    return groupedByOrganization;
+  return groupedByOrganization
 }
 
 export { groupBy, groupByKeys }

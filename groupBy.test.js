@@ -1,5 +1,5 @@
 import { expect } from 'vitest'
-import  { groupBy, groupByKeys } from './groupBy'
+import { groupBy, groupByKeys } from './groupBy'
 
 describe('groupBy', () => {
   test('should group objects by organizationId and projectId', () => {
@@ -48,7 +48,7 @@ describe('groupBy', () => {
   })
 })
 
-// INFO: Need node.js >= v22 
+// INFO: Need node.js >= v22
 describe('groupByKeys', () => {
   test('should group objects by organizationId and projectId', () => {
     const data = [
